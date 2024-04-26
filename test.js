@@ -78,43 +78,43 @@ function initMap() {
 
 
 function makeMarker(data){
-if(data.type=="농업기술원"){
+if(data.type=="type1"){
  L.marker([data.lat, data.lon], { icon: Icon1 })
     .bindTooltip(data.type)
     .addTo(map);
 }
 
-if(data.type=="재난대응과"){
+if(data.type=="type2"){
  L.marker([data.lat, data.lon], { icon: Icon2 })
    .bindTooltip(data.type)
    .addTo(map);
 }
 
-if(data.type=="kweather"){
+if(data.type=="type3"){
   L.marker([data.lat, data.lon], { icon: Icon3 })
      .bindTooltip(data.type)
      .addTo(map);
  }
 
- if(data.type=="기상청"){
+ if(data.type=="type4"){
     L.marker([data.lat, data.lon], { icon: Icon4 })
         .bindTooltip(data.type)
         .addTo(map);
  }
 
- if(data.type=="농촌진흥청"){
+ if(data.type=="type5"){
   L.marker([data.lat, data.lon], { icon: Icon5 })
          .bindTooltip(data.type)
          .addTo(map);
  }
 
- if(data.type=="제주(94개소)"){
+ if(data.type=="type6"){
     L.marker([data.lat, data.lon], { icon: Icon6 })
              .bindTooltip(data.type)
              .addTo(map);
  }
 
- if(data.type=="산림청"){
+ if(data.type=="type7"){
       L.marker([data.lat, data.lon], { icon: Icon7})
                .bindTooltip(data.type)
                .addTo(map);
